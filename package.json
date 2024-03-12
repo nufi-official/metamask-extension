@@ -119,6 +119,10 @@
     "master-sync": "node development/master-sync.js"
   },
   "resolutions": {
+    "@metamask/snaps-rpc-methods": "https://github.com/nufi-official/metamask-snaps/releases/download/v37.0.0-cip3/metamask-snaps-rpc-methods-7.0.1-cip3.tgz",
+    "@metamask/snaps-sdk": "https://github.com/nufi-official/metamask-snaps/releases/download/v37.0.0-cip3/metamask-snaps-sdk-3.1.0-cip3.tgz",
+    "@metamask/snaps-utils": "https://github.com/nufi-official/metamask-snaps/releases/download/v37.0.0-cip3/metamask-snaps-utils-7.0.2-cip3.tgz",
+    "@metamask/key-tree": "https://github.com/nufi-official/metamask-key-tree/releases/download/v10.0.0-cip3/metamask-key-tree-10.0.0-cip3.tgz",
     "simple-update-notifier@^1.0.0": "^2.0.0",
     "@babel/core": "patch:@babel/core@npm%3A7.23.2#~/.yarn/patches/@babel-core-npm-7.23.2-b93f586907.patch",
     "@babel/runtime": "patch:@babel/runtime@npm%3A7.23.2#~/.yarn/patches/@babel-runtime-npm-7.23.2-d013d6cf7e.patch",
@@ -214,8 +218,7 @@
     "semver@7.3.8": "^7.5.4",
     "nonce-tracker@npm:^3.0.0": "patch:nonce-tracker@npm%3A3.0.0#~/.yarn/patches/nonce-tracker-npm-3.0.0-c5e9a93f9d.patch",
     "@trezor/connect-web": "9.0.11",
-    "lavamoat-core@npm:^15.1.1": "patch:lavamoat-core@npm%3A15.1.1#~/.yarn/patches/lavamoat-core-npm-15.1.1-51fbe39988.patch",
-    "@metamask/snaps-sdk": "^3.1.0"
+    "lavamoat-core@npm:^15.1.1": "patch:lavamoat-core@npm%3A15.1.1#~/.yarn/patches/lavamoat-core-npm-15.1.1-51fbe39988.patch"
   },
   "dependencies": {
     "@babel/runtime": "^7.23.2",
